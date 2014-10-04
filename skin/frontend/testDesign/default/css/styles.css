@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+}
+
+.main-container, .footer-container, .page-header, .wrapper {
+    position: relative;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+a:hover {
+    color: #000000;
+}
+/* ################# HEADER ############################# */
+.notice-inner {
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    height: 30px;
+    line-height: 30px;
+}
+.notice-inner p {
+    margin: 0 10px;
+}
+.header-language-background {
+    width: 100%;
+    background-color: lightblue;
+    height: 35px;
+}
+.store-language-container {
+    float: left;
+    line-height: 35px;
+    padding-left: 10px;
+}
+.welcome-msg {
+    float: right;
+    line-height: 35px;
+    padding-right: 10px;
+    margin: 0;
+}
+.page-header-container {
+    position: relative;
+}
+.skip-links {
+    clear: both;
+    overflow: hidden;
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.skip-link {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 44px;
+    background: #FFFFFF;
+    color: #636363;
+    line-height: 42px;
+    text-align: center;
+}
+
+.search-and-account-wrapper {
+    float: right;
+    line-height: 25px;
+    padding-right: 10px;
+}
+.header-search {
+    float: right;
+    padding: 5px 0;
+}
+.page-header-container img {
+    padding: 10px;
+    height: 44px;
+}
+#nav {
+    border: 1px solid #d3d3d3;
+}
+.header-account ul {
+    margin: 0;
+    padding-right: 35px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+.header-account ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.nav-primary{
+    margin:  0;
+}
+.nav-primary > li {
+    display: inline-block;
+    padding-right: 30px;
+    line-height: 30px;
+}
+.nav-primary ul {
+    position: absolute;
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+.nav-primary ul li {
+    display: none;
+    list-style: none;
+}
+
+.nav-primary > li:hover ul li {
+    display: block;
+}
+

@@ -64,13 +64,13 @@
             </test>
         </blocks>
 
-        <blocks>
-            <catalog>
-                <rewrite>
-                    <product_view>Pfay_Test_Catalog_Block_View</product_view>
-                </rewrite>
-            </catalog>
-        </blocks>
+        <!--<blocks>-->
+            <!--<catalog>-->
+                <!--<rewrite>-->
+                    <!--<product_view>Pfay_Test_Catalog_Block_View</product_view>-->
+                <!--</rewrite>-->
+            <!--</catalog>-->
+        <!--</blocks>-->
 
         <models>
             <test>
@@ -79,11 +79,11 @@
             </test>
 
 
-            <catalog>
-                <rewrite>
-                    <product>Pfay_Test_Catalog_Model_Product</product>
-                </rewrite>
-            </catalog>
+            <!--<catalog>-->
+                <!--<rewrite>-->
+                    <!--<product>Pfay_Test_Catalog_Model_Product</product>-->
+                <!--</rewrite>-->
+            <!--</catalog>-->
 
 
             <test_mysql4>
