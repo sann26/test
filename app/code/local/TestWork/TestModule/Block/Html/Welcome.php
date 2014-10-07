@@ -1,6 +1,6 @@
 <?php
 
-class TestWork_TestModule_Block_Welcome extends Mage_Core_Block_Template {
+class TestWork_TestModule_Block_Html_Welcome extends Mage_Core_Block_Template {
 
     protected function _toHtml()
     {
@@ -11,8 +11,6 @@ class TestWork_TestModule_Block_Welcome extends Mage_Core_Block_Template {
                 $this->_data['welcome'] = Mage::getStoreConfig('design/header/welcome');
             }
         }
-
-        return $this->_data['welcome'].'11111111111111';
+        return $this->_data['welcome'].', fine weather today!!';
     }
-
 }
